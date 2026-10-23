@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LandMark Real Estate & Developers Faisalabad - Your trusted partner for residential, commercial, corporate offices, and agricultural land properties on Canal Expressway and across Faisalabad.">
+  <meta name="keywords" content="real estate Faisalabad, property dealers Canal Expressway, LandMark Real Estate, buy sell property Faisalabad, commercial plots, residential houses, agricultural land">
+  <meta name="author" content="LandMark Real Estate & Developers">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LandMark Real Estate & Developers | Faisalabad Property Dealers">
+  <meta property="og:description" content="Premium real estate services in Faisalabad. Specializing in Commercial, Residential, Corporate Offices, Agricultural Land and investment solutions.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://landmarkrealestate.pk">
+  <meta property="og:locale" content="en_PK">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LandMark Real Estate & Developers | Faisalabad">
+  <meta name="twitter:description" content="Your Trusted Real Estate Partner in Faisalabad. Premium properties on Canal Expressway and beyond.">
+
+  <title>LandMark Real Estate & Developers | Property Dealers Faisalabad</title>
+
+  <!-- Favicon (SVG placeholder) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23C9A227'/><text x='50' y='68' font-size='52' font-weight='bold' text-anchor='middle' fill='%230B1C2C' font-family='Georgia,serif'>L</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <style>
+/* ============================================
+   LandMark Real Estate & Developers
+   Premium Real Estate Website Styles
+   ============================================ */
+
+/* --- CSS Variables --- */
+:root {
+  --color-primary: #0B1C2C;       /* Deep navy */
+  --color-primary-dark: #061018;
+  --color-accent: #C9A227;        /* Luxury gold */
+  --color-accent-hover: #B8911F;
+  --color-accent-light: #E8D48B;
+  --color-white: #FFFFFF;
+  --color-off-white: #F8F7F4;
+  --color-light-gray: #F0EFEA;
+  --color-gray: #6B7280;
+  --color-dark-gray: #374151;
+  --color-text: #1F2937;
+  --color-border: #E5E7EB;
+  
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
+  --shadow-xl: 0 20px 50px rgba(0,0,0,0.15);
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  --container: 1200px;
+  --header-height: 80px;
+}
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-white);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+/* --- Typography --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-primary);
+}
+
+h1 { font-size: clamp(2.25rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+h3 { font-size: clamp(1.25rem, 3vw, 1.5rem); }
+h4 { font-size: 1.125rem; }
+
+p {
+  color: var(--color-dark-gray);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  color: var(--color-gray);
+  font-size: 1.05rem;
+}
+
+/* --- Utility --- */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-dark {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.section-dark h2,
+.section-dark h3,
+.section-dark .section-title {
+  color: var(--color-white);
+}
+
+.section-light {
+  background-color: var(--color-off-white);
+}
+
+.text-center { text-align: center; }
+.text-gold { color: var(--color-accent); }
+
+/* --- Buttons --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.btn-outline-dark {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  background: transparent;
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1da851;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-sm {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.875rem;
+}
+
+/* --- Header / Navigation --- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  z-index: 1000;
+  transition: var(--transition);
+  background: transparent;
+}
+
+.header.scrolled {
+  background: rgba(11, 28, 44, 0.97);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-md);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  background: var(--color-accent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+}
+
+.logo span {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .logo span { display: inline; }
+}
+
+.nav {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav a {
+  color: rgba(255,255,255,0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-accent);
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after,
+.nav a.active::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: var(--color-white);
+}
+
+.header-cta {
+  display: none;
+}
+
+.mobile-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 28px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.mobile-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--color-white);
+  transition: var(--transition);
+  border-radius: 2px;
+}
+
+.mobile-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.mobile-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile Nav */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 320px;
+  height: 100vh;
+  background: var(--color-primary);
+  z-index: 999;
+  padding: 6rem 2rem 2rem;
+  transition: right 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mobile-nav.active {
+  right: 0;
+}
+
+.mobile-nav a {
+  color: var(--color-white);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.mobile-nav a:hover {
+  color: var(--color-accent);
+}
+
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+}
+
+.mobile-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 992px) {
+  .nav { display: flex; }
+  .header-cta { display: inline-flex; }
+  .mobile-toggle { display: none; }
+}
+
+/* --- Hero Section --- */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: var(--color-primary);
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.45;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(11,28,44,0.92) 0%, rgba(11,28,44,0.7) 50%, rgba(11,28,44,0.85) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  padding: 8rem 0 4rem;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(201,162,39,0.15);
+  border: 1px solid rgba(201,162,39,0.3);
+  color: var(--color-accent-light);
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  color: var(--color-white);
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.5px;
+}
+
+.hero h1 span {
+  color: var(--color-accent);
+}
+
+.hero-desc {
+  color: rgba(255,255,255,0.85);
+  font-size: 1.15rem;
+  margin-bottom: 2.5rem;
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* --- Stats --- */
+.stats {
+  background: var(--color-primary-dark);
+  padding: 3rem 0;
+  position: relative;
+  z-index: 5;
+  margin-top: -1px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+.stat-label {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* --- About --- */
+.about-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-image {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.about-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.about-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(to top, rgba(11,28,44,0.6), transparent);
+}
+
+.about-badge {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  background: var(--color-accent);
+  color: var(--color-primary);
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  z-index: 2;
+}
+
+.about-content .section-label {
+  text-align: left;
+}
+
+.about-content h2 {
+  margin-bottom: 1.25rem;
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+}
+
+.mission-vision {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.mv-card {
+  background: var(--color-off-white);
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-accent);
+}
+
+.mv-card h4 {
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.why-list {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.why-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--color-dark-gray);
+}
+
+.why-list li svg {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  color: var(--color-accent);
+  margin-top: 2px;
+}
+
+@media (min-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .about-image img {
+    height: 520px;
+  }
+}
+
+/* --- Properties --- */
+.properties-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: var(--color-light-gray);
+  color: var(--color-dark-gray);
+  transition: var(--transition);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.properties-grid {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.property-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  border: 1px solid var(--color-border);
+}
+
+.property-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+}
+
+.property-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.06);
+}
+
+.property-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: var(--color-accent);
+  color: var(--color-primary);
+  padding: 0.35rem 0.85rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.property-price {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(11,28,44,0.9);
+  color: var(--color-white);
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.property-body {
+  padding: 1.5rem;
+}
+
+.property-body h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.property-location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-gray);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.property-location svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.property-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--color-dark-gray);
+}
+
+.property-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.property-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+@media (min-width: 640px) {
+  .properties-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .properties-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* --- Property Modal --- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.modal-overlay.active .modal {
+  transform: scale(1);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-size: 1.25rem;
+  transition: var(--transition);
+}
+
+.modal-close:hover {
+  background: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.modal-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  height: 280px;
+}
+
+.modal-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-gallery img:first-child {
+  grid-row: span 2;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-body h2 {
+  margin-bottom: 0.5rem;
+}
+
+.modal-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.modal-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.modal-feature {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--color-off-white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+}
+
+.modal-map {
+  margin: 1.5rem 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 220px;
+}
+
+.modal-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* --- Services --- */
+.services-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  transition: var(--transition);
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-accent);
+}
+
+.service-icon {
+  width: 64px;
+  height: 64px;
+  background: rgba(201,162,39,0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  color: var(--color-accent);
+}
+
+.service-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.service-card h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+}
+
+.service-card p {
+  font-size: 0.925rem;
+  color: var(--color-gray);
+}
+
+@media (min-width: 640px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* --- Testimonials --- */
+.testimonials-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.testimonial-card {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: '"';
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  color: var(--color-accent);
+  opacity: 0.2;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.25rem;
+  line-height: 1;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: var(--color-dark-gray);
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.author-info h4 {
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.author-info span {
+  font-size: 0.8rem;
+  color: var(--color-gray);
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+}
+
+@media (min-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* --- Contact --- */
+.contact-grid {
+  display: grid;
+  gap: 3rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(201,162,39,0.12);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.contact-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.contact-item h4 {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+.contact-item p,
+.contact-item a {
+  color: var(--color-gray);
+  font-size: 0.95rem;
+}
+
+.contact-item a:hover {
+  color: var(--color-accent);
+}
+
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.contact-map {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 280px;
+  box-shadow: var(--shadow-md);
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Contact Form */
+.contact-form-wrapper {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-border);
+}
+
+.contact-form-wrapper h3 {
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--color-primary);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-off-white);
+  transition: var(--transition);
+  color: var(--color-text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--color-accent);
+  background: var(--color-white);
+  box-shadow: 0 0 0 3px rgba(201,162,39,0.15);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-row {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-error {
+  color: #DC2626;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  display: none;
+}
+
+.form-group.error input,
+.form-group.error select,
+.form-group.error textarea {
+  border-color: #DC2626;
+}
+
+.form-group.error .form-error {
+  display: block;
+}
+
+.form-success {
+  display: none;
+  background: #ECFDF5;
+  color: #065F46;
+  padding: 1rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.form-success.active {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1.1fr;
+    gap: 4rem;
+  }
+}
+
+/* --- Footer --- */
+.footer {
+  background: var(--color-primary-dark);
+  color: rgba(255,255,255,0.8);
+  padding: 4rem 0 0;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand .logo {
+  margin-bottom: 1rem;
+}
+
+.footer-brand p {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.925rem;
+  margin-bottom: 1.5rem;
+  max-width: 280px;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.8);
+  transition: var(--transition);
+}
+
+.social-links a:hover {
+  background: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.footer h4 {
+  color: var(--color-white);
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.925rem;
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+  padding-left: 4px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.5);
+}
+
+@media (min-width: 640px) {
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr 1.2fr;
+  }
+}
+
+/* --- Floating WhatsApp --- */
+.whatsapp-float {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  z-index: 999;
+  transition: var(--transition);
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(37,211,102,0.5);
+}
+
+.whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* --- Animations --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Responsive Tweaks --- */
+@media (max-width: 639px) {
+  .section {
+    padding: 3.5rem 0;
+  }
+  
+  .hero-content {
+    padding: 7rem 0 3rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+  
+  .modal-gallery {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  
+  .modal-gallery img {
+    height: 180px;
+  }
+  
+  .modal-gallery img:first-child {
+    grid-row: auto;
+  }
+}
+
+/* Print styles */
+@media print {
+  .header, .whatsapp-float, .mobile-nav, .mobile-overlay {
+    display: none !important;
+  }
+}
+  </style>
+</head>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="container">
+      <a href="#home" class="logo" aria-label="LandMark Real Estate Home">
+        <div class="logo-icon">L</div>
+        <span>LandMark</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#properties">Properties</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="https://wa.me/923001234567?text=Hello%20LandMark%20Real%20Estate%2C%20I%20am%20interested%20in%20your%20properties." 
+         class="btn btn-primary header-cta btn-sm" 
+         target="_blank" 
+         rel="noopener noreferrer">
+        WhatsApp Us
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-overlay"></div>
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#properties">Properties</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="https://wa.me/923001234567" class="btn btn-whatsapp" target="_blank" rel="noopener" style="margin-top:1rem;">WhatsApp Us</a>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg" role="img" aria-label="Luxury modern property exterior"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          Trusted Property Dealers in Faisalabad
+        </div>
+        <h1>Your Trusted Real Estate Partner in <span>Faisalabad</span></h1>
+        <p class="hero-desc">
+          LandMark Real Estate Marketing Company redefines the standard in property promotion. 
+          We specialize in positioning your properties as the focal point of attention — Commercial, 
+          Residential, Corporate Offices, Agricultural Land and more.
+        </p>
+        <div class="hero-buttons">
+          <a href="#properties" class="btn btn-primary">
+            Explore Properties
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="https://wa.me/923001234567?text=Hello%20LandMark%20Real%20Estate%2C%20I%20would%20like%20to%20inquire%20about%20properties." 
+             class="btn btn-outline" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Contact on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats" aria-label="Company statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">15+</div>
+          <div class="stat-label">Years of Experience</div>
+        </div>
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Properties Sold</div>
+        </div>
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">1000+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">Areas Covered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image animate-on-scroll">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80" 
+               alt="Professional real estate consultation meeting" 
+               loading="lazy">
+          <div class="about-badge">Since 2010</div>
+        </div>
+        <div class="about-content animate-on-scroll">
+          <span class="section-label">About Us</span>
+          <h2 class="section-title">Redefining Property Promotion in Faisalabad</h2>
+          <p>
+            LandMark Real Estate Marketing Company stands at the forefront of property marketing 
+            in Faisalabad. With a unique blend of innovation and deep market expertise, we specialize 
+            in positioning your properties as the focal point of attention.
+          </p>
+          <p>
+            Based on Canal Expressway, we serve clients across residential, commercial, corporate, 
+            and agricultural segments — delivering tailored solutions that maximize value and visibility.
+          </p>
+
+          <div class="mission-vision">
+            <div class="mv-card">
+              <h4>Our Mission</h4>
+              <p>To deliver exceptional real estate experiences through integrity, market insight, and personalized service that exceeds client expectations.</p>
+            </div>
+            <div class="mv-card">
+              <h4>Our Vision</h4>
+              <p>To be Faisalabad’s most trusted and innovative real estate partner, setting new benchmarks in property marketing and client satisfaction.</p>
+            </div>
+          </div>
+
+          <h4 style="margin-bottom:0.75rem;">Why Choose LandMark?</h4>
+          <ul class="why-list">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Deep local expertise across Canal Expressway and Faisalabad markets
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              End-to-end support for buyers, sellers, and investors
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Transparent processes and ethical dealing
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Strong network of verified buyers and sellers
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROPERTIES ========== -->
+  <section id="properties" class="section section-light">
+    <div class="container">
+      <div class="text-center animate-on-scroll">
+        <span class="section-label">Our Portfolio</span>
+        <h2 class="section-title">Featured Properties</h2>
+        <p class="section-subtitle">
+          Discover a curated selection of premium residential, commercial, and investment 
+          opportunities across Faisalabad’s most sought-after locations.
+        </p>
+      </div>
+
+      <!-- Category Filters -->
+      <div class="properties-filter animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All Properties</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="corporate">Corporate Offices</button>
+        <button class="filter-btn" data-filter="agricultural">Agricultural Land</button>
+        <button class="filter-btn" data-filter="investment">Investment</button>
+      </div>
+
+      <div class="properties-grid">
+        <!-- Property 1 -->
+        <article class="property-card" data-category="residential">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" 
+                 alt="Luxury 2 Kanal Designer House" loading="lazy">
+            <span class="property-badge">Residential</span>
+            <span class="property-price">PKR 2.5 Cr</span>
+          </div>
+          <div class="property-body">
+            <h3>Luxury 2 Kanal Designer House</h3>
+            <div class="property-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Lyallpur Villas, Canal Expressway
+            </div>
+            <div class="property-meta">
+              <span>5 Beds</span>
+              <span>6 Baths</span>
+              <span>2 Kanal</span>
+            </div>
+            <div class="property-footer">
+              <button class="btn btn-outline-dark btn-sm btn-details" data-id="1">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Property 2 -->
+        <article class="property-card" data-category="commercial">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" 
+                 alt="Premium Commercial Plaza" loading="lazy">
+            <span class="property-badge">Commercial</span>
+            <span class="property-price">PKR 8.5 Cr</span>
+          </div>
+          <div class="property-body">
+            <h3>Premium Commercial Plaza</h3>
+            <div class="property-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Canal Expressway, Faisalabad
+            </div>
+            <div class="property-meta">
+              <span>12 Units</span>
+              <span>G+2</span>
+              <span>40 Parking</span>
+            </div>
+            <div class="property-footer">
+              <button class="btn btn-outline-dark btn-sm btn-details" data-id="2">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Property 3 -->
+        <article class="property-card" data-category="corporate">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" 
+                 alt="Modern Corporate Office Suite" loading="lazy">
+            <span class="property-badge">Corporate</span>
+            <span class="property-price">PKR 1.8 Cr</span>
+          </div>
+          <div class="property-body">
+            <h3>Modern Corporate Office Suite</h3>
+            <div class="property-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Business District, Canal Road
+            </div>
+            <div class="property-meta">
+              <span>3500 Sq Ft</span>
+              <span>6 Cabins</span>
+              <span>Furnished</span>
+            </div>
+            <div class="property-footer">
+              <button class="btn btn-outline-dark btn-sm btn-details" data-id="3">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Property 4 -->
+        <article class="property-card" data-category="agricultural">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" 
+                 alt="Prime Agricultural Land" loading="lazy">
+            <span class="property-badge">Agricultural</span>
+            <span class="property-price">PKR 16.5 Cr/Acre</span>
+          </div>
+          <div class="property-body">
+            <h3>Prime Agricultural Land – 34 Kanal</h3>
+            <div class="property-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Canal Expressway Zero Point
+            </div>
+            <div class="property-meta">
+              <span>34 Kanal</span>
+              <span>500 ft Front</span>
+              <span>Road Access</span>
+            </div>
+            <div class="property-footer">
+              <button class="btn btn-outline-dark btn-sm btn-details" data-id="4">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Property 5 -->
+        <article class="property-card" data-category="residential">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" 
+                 alt="5.5 Marla Modern House" loading="lazy">
+            <span class="property-badge">Residential</span>
+            <span class="property-price">PKR 2.45 Cr</span>
+          </div>
+          <div class="property-body">
+            <h3>5.5 Marla Modern House</h3>
+            <div class="property-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Zee Garden, Canal Expressway
+            </div>
+            <div class="property-meta">
+              <span>3 Beds</span>
+              <span>3 Baths</span>
+              <span>5.5 Marla</span>
+            </div>
+            <div class="property-footer">
+              <button class="btn btn-outline-dark btn-sm btn-details" data-id="5">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Property 6 -->
+        <article class="property-card" data-category="investment">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" 
+                 alt="Investment Plot Canal Villas" loading="lazy">
+            <span class="property-badge">Investment</span>
+            <span class="property-price">PKR 1.6 Cr</span>
+          </div>
+          <div class="property-body">
+            <h3>Investment Plot – 10 Marla</h3>
+            <div class="property-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Canal Villas Executive Block
+            </div>
+            <div class="property-meta">
+              <span>10 Marla</span>
+              <span>FDA Approved</span>
+              <span>Gated</span>
+            </div>
+            <div class="property-footer">
+              <button class="btn btn-outline-dark btn-sm btn-details" data-id="6">View Details</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROPERTY MODAL ========== -->
+  <div class="modal-overlay" id="propertyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-gallery">
+        <!-- Images injected by JS -->
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="property-location modal-location" style="margin-bottom:0.5rem;"></div>
+        <div class="modal-price"></div>
+        <p class="modal-description"></p>
+        <div class="modal-features"></div>
+        <div class="modal-map">
+          <iframe 
+            src="https://maps.google.com/maps?q=Canal+Expressway,+Faisalabad,+Pakistan&hl=en&z=14&output=embed" 
+            allowfullscreen 
+            loading="lazy"
+            title="Property location map">
+          </iframe>
+        </div>
+        <div class="modal-actions">
+          <a href="https://wa.me/923001234567?text=Hello%2C%20I%20am%20interested%20in%20this%20property." 
+             class="btn btn-whatsapp" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Contact Agent on WhatsApp
+          </a>
+          <a href="#contact" class="btn btn-outline-dark modal-close-link">Send Inquiry</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="text-center animate-on-scroll">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">
+          Comprehensive real estate solutions tailored to buyers, sellers, investors, and developers.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3>Buying Property</h3>
+          <p>Expert guidance to find and acquire the right residential or commercial property that matches your needs and budget.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <h3>Selling Property</h3>
+          <p>Strategic marketing and negotiation to position your property effectively and achieve optimal market value.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+          </div>
+          <h3>Investment Consultancy</h3>
+          <p>Data-driven advice on high-potential investment opportunities across residential, commercial, and land segments.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <h3>Commercial Property Deals</h3>
+          <p>Specialized handling of plazas, shops, offices, and mixed-use developments with strong rental and capital growth potential.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+          </div>
+          <h3>Rental Solutions</h3>
+          <p>Matching tenants with quality properties and supporting landlords with tenant screening and lease management.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          </div>
+          <h3>Land Development</h3>
+          <p>Advisory and facilitation for agricultural land conversion, plot development, and society planning projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section id="testimonials" class="section section-light">
+    <div class="container">
+      <div class="text-center animate-on-scroll">
+        <span class="section-label">Client Stories</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-subtitle">
+          Real experiences from buyers, sellers, and investors who trusted LandMark with their property journey.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card animate-on-scroll">
+          <div class="stars">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-text">
+            “LandMark helped us find our dream home on Canal Expressway within weeks. Their knowledge of the local market and transparent process made the entire experience stress-free.”
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AR</div>
+            <div class="author-info">
+              <h4>Ahmed Raza</h4>
+              <span>Home Buyer · Lyallpur Villas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll">
+          <div class="stars">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-text">
+            “I sold my commercial plaza through LandMark and received multiple serious offers. Their marketing approach and negotiation skills delivered a price above my expectations.”
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div class="author-info">
+              <h4>Sana Khan</h4>
+              <span>Property Seller · Canal Road</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll">
+          <div class="stars">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-text">
+            “As an investor, I needed reliable market insight. LandMark provided clear analysis on agricultural land opportunities near Zero Point. Their advice has already shown strong returns.”
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MH</div>
+            <div class="author-info">
+              <h4>Muhammad Hassan</h4>
+              <span>Investor · Agricultural Land</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="text-center animate-on-scroll">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Contact LandMark</h2>
+        <p class="section-subtitle">
+          Ready to buy, sell, or invest? Reach out today — our team is here to guide you every step of the way.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <h4>Our Location</h4>
+              <p>Canal Expressway, Faisalabad, Pakistan</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+923001234567">+92 300 1234567</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:info@landmarkre.pk">info@landmarkre.pk</a>
+            </div>
+          </div>
+
+          <div class="contact-buttons">
+            <a href="tel:+923001234567" class="btn btn-outline-dark btn-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              Call Now
+            </a>
+            <a href="https://wa.me/923001234567" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
+          </div>
+
+          <div class="contact-map">
+            <iframe 
+              src="https://maps.google.com/maps?q=Canal+Expressway,+Faisalabad,+Pakistan&hl=en&z=14&output=embed" 
+              allowfullscreen 
+              loading="lazy"
+              title="LandMark Real Estate location - Canal Expressway Faisalabad">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper animate-on-scroll">
+          <h3>Send an Inquiry</h3>
+          <div class="form-success">
+            Thank you! Your message has been sent successfully. We will contact you shortly.
+          </div>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                <span class="form-error">Please enter your name (min. 2 characters)</span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <span class="form-error">Please enter a valid email address</span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="03XX XXXXXXX" required>
+                <span class="form-error">Please enter a valid Pakistani mobile number</span>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="buy">Buying a Property</option>
+                  <option value="sell">Selling a Property</option>
+                  <option value="invest">Investment Enquiry</option>
+                  <option value="rent">Rental Solutions</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="form-error">Please select a subject</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your requirements..." required></textarea>
+              <span class="form-error">Please enter a message (min. 10 characters)</span>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <div class="logo-icon">L</div>
+            <span>LandMark</span>
+          </a>
+          <p>
+            LandMark Real Estate & Developers — redefining property promotion in Faisalabad 
+            with innovation, expertise, and integrity.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" aria-label="Instagram" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://wa.me/923001234567" aria-label="WhatsApp" title="WhatsApp" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#properties">Properties</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Property Types</h4>
+          <div class="footer-links">
+            <a href="#properties">Residential</a>
+            <a href="#properties">Commercial</a>
+            <a href="#properties">Corporate Offices</a>
+            <a href="#properties">Agricultural Land</a>
+            <a href="#properties">Investment Opportunities</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Contact Info</h4>
+          <div class="footer-links">
+            <a href="#">Canal Expressway, Faisalabad</a>
+            <a href="tel:+923001234567">+92 300 1234567</a>
+            <a href="mailto:info@landmarkre.pk">info@landmarkre.pk</a>
+            <a href="https://wa.me/923001234567" target="_blank" rel="noopener">WhatsApp Chat</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 LandMark Real Estate & Developers. All rights reserved.</p>
+        <p>Designed for excellence in Faisalabad real estate.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/923001234567?text=Hello%20LandMark%20Real%20Estate%2C%20I%20have%20an%20inquiry." 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Scripts -->
+  <script>
+/**
+ * LandMark Real Estate & Developers
+ * Main JavaScript - Interactions, Filtering, Modal, Form Validation
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+  // --- Header Scroll Effect ---
+  const header = document.querySelector('.header');
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  };
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll();
+
+  // --- Mobile Navigation ---
+  const mobileToggle = document.querySelector('.mobile-toggle');
+  const mobileNav = document.querySelector('.mobile-nav');
+  const mobileOverlay = document.querySelector('.mobile-overlay');
+  const mobileLinks = document.querySelectorAll('.mobile-nav a');
+
+  const closeMobileNav = () => {
+    mobileToggle.classList.remove('active');
+    mobileNav.classList.remove('active');
+    mobileOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+
+  mobileToggle?.addEventListener('click', () => {
+    const isActive = mobileNav.classList.contains('active');
+    if (isActive) {
+      closeMobileNav();
+    } else {
+      mobileToggle.classList.add('active');
+      mobileNav.classList.add('active');
+      mobileOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+
+  mobileOverlay?.addEventListener('click', closeMobileNav);
+  mobileLinks.forEach(link => link.addEventListener('click', closeMobileNav));
+
+  // --- Smooth Scroll for Anchor Links ---
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      const target = document.querySelector(targetId);
+      if (target) {
+        e.preventDefault();
+        const headerOffset = 80;
+        const elementPosition = target.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // --- Active Nav Link on Scroll ---
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav a');
+
+  const highlightNav = () => {
+    const scrollY = window.pageYOffset;
+    sections.forEach(section => {
+      const sectionHeight = section.offsetHeight;
+      const sectionTop = section.offsetTop - 120;
+      const sectionId = section.getAttribute('id');
+      if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${sectionId}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+    });
+  };
+  window.addEventListener('scroll', highlightNav, { passive: true });
+
+  // --- Property Filter ---
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const propertyCards = document.querySelectorAll('.property-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active state
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+
+      propertyCards.forEach(card => {
+        const category = card.dataset.category;
+        if (filter === 'all' || category === filter) {
+          card.style.display = '';
+          // Re-trigger animation
+          card.classList.remove('visible');
+          setTimeout(() => card.classList.add('visible'), 50);
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // --- Property Modal ---
+  const modalOverlay = document.getElementById('propertyModal');
+  const modalClose = document.querySelector('.modal-close');
+  const detailBtns = document.querySelectorAll('.btn-details');
+
+  // Property data for modal content
+  const propertiesData = {
+    1: {
+      title: 'Luxury 2 Kanal Designer House',
+      location: 'Lyallpur Villas, Canal Expressway',
+      price: 'PKR 2.5 Crore',
+      category: 'Residential',
+      description: 'An exquisite 2 Kanal designer house featuring modern architecture, premium finishes, and expansive living spaces. Located in the prestigious Lyallpur Villas society with 24/7 security, landscaped gardens, and easy access to Canal Expressway. Perfect for families seeking luxury living in Faisalabad.',
+      features: ['5 Bedrooms', '6 Bathrooms', '2 Kanal', 'Double Garage', 'Swimming Pool', 'Servant Quarters'],
+      images: [
+        'https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+      ]
+    },
+    2: {
+      title: 'Premium Commercial Plaza',
+      location: 'Canal Expressway, Faisalabad',
+      price: 'PKR 8.5 Crore',
+      category: 'Commercial',
+      description: 'A high-visibility commercial plaza ideally situated on Canal Expressway. Features multiple retail units, ample parking, and modern infrastructure. Excellent investment opportunity with strong rental potential due to high traffic flow and growing commercial demand in the area.',
+      features: ['12 Units', 'Ground + 2 Floors', 'Parking for 40 Cars', 'Elevator', 'Backup Generator', 'Corner Location'],
+      images: [
+        'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        'https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+      ]
+    },
+    3: {
+      title: 'Modern Corporate Office Suite',
+      location: 'Business District, Canal Road',
+      price: 'PKR 1.8 Crore',
+      category: 'Corporate',
+      description: 'Fully fitted modern office suite in a prime business location. Open-plan layout with private cabins, conference room, and reception area. Ideal for growing companies looking for a professional address with excellent connectivity and nearby amenities.',
+      features: ['3500 Sq Ft', '6 Cabins', 'Conference Room', 'Pantry', 'Server Room', 'Assigned Parking'],
+      images: [
+        'https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        'https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+      ]
+    },
+    4: {
+      title: 'Prime Agricultural Land - 34 Kanal',
+      location: 'Canal Expressway Zero Point',
+      price: 'PKR 16.5 Cr / Acre',
+      category: 'Agricultural',
+      description: 'Exceptional 34 Kanal agricultural land with approximately 500 ft frontage on Canal Expressway near Zero Point. Highly fertile soil, accessible by road, with electricity available. Ideal for farmhouse development, commercial activity, or long-term investment in Faisalabad\'s fastest-growing corridor.',
+      features: ['34 Kanal', '500 ft Front', 'Road Access', 'Electricity', 'Fertile Land', 'Near Zero Point'],
+      images: [
+        'https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        'https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+      ]
+    },
+    5: {
+      title: '5.5 Marla Modern House',
+      location: 'Zee Garden, Canal Expressway',
+      price: 'PKR 2.45 Crore',
+      category: 'Residential',
+      description: 'Beautifully designed 5.5 Marla house in Zee Garden society. Contemporary interiors, high-quality fixtures, and a well-planned layout. The society offers parks, mosque, and secure environment — perfect for young families and professionals.',
+      features: ['3 Bedrooms', '3 Bathrooms', '5.5 Marla', 'Car Porch', 'Modern Kitchen', 'Gated Society'],
+      images: [
+        'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1600573472592-401b489a3cdc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        'https://images.unsplash.com/photo-1600047509807-ba8f04d8a9de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+      ]
+    },
+    6: {
+      title: 'Investment Plot - 10 Marla',
+      location: 'Canal Villas Executive Block',
+      price: 'PKR 1.6 Crore',
+      category: 'Investment',
+      description: 'Prime 10 Marla residential plot in Canal Villas Executive Block by Sitara Group. FDA approved, developed society with underground electricity, gas, and modern amenities. Excellent appreciation potential and ideal for building your dream home or investment.',
+      features: ['10 Marla', 'FDA Approved', 'Gated Community', 'Underground Utilities', 'Parks & Mosque', 'Easy Installments'],
+      images: [
+        'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        'https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+      ]
+    }
+  };
+
+  const openModal = (id) => {
+    const data = propertiesData[id];
+    if (!data) return;
+
+    const modal = modalOverlay.querySelector('.modal');
+    modal.querySelector('.modal-gallery').innerHTML = `
+      <img src="${data.images[0]}" alt="${data.title}">
+      <img src="${data.images[1]}" alt="${data.title}">
+      <img src="${data.images[2]}" alt="${data.title}">
+    `;
+    modal.querySelector('.modal-title').textContent = data.title;
+    modal.querySelector('.modal-location').innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+      ${data.location}
+    `;
+    modal.querySelector('.modal-price').textContent = data.price;
+    modal.querySelector('.modal-description').textContent = data.description;
+    modal.querySelector('.modal-features').innerHTML = data.features.map(f => `
+      <div class="modal-feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        ${f}
+      </div>
+    `).join('');
+
+    modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    modalOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+
+  detailBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const id = btn.dataset.id;
+      openModal(id);
+    });
+  });
+
+  modalClose?.addEventListener('click', closeModal);
+  modalOverlay?.addEventListener('click', (e) => {
+    if (e.target === modalOverlay) closeModal();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+      closeModal();
+    }
+  });
+
+  // --- Contact Form Validation ---
+  const contactForm = document.getElementById('contactForm');
+  const formSuccess = document.querySelector('.form-success');
+
+  contactForm?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let isValid = true;
+
+    // Clear previous errors
+    contactForm.querySelectorAll('.form-group').forEach(group => {
+      group.classList.remove('error');
+    });
+
+    const name = contactForm.querySelector('#name');
+    const email = contactForm.querySelector('#email');
+    const phone = contactForm.querySelector('#phone');
+    const subject = contactForm.querySelector('#subject');
+    const message = contactForm.querySelector('#message');
+
+    // Name validation
+    if (!name.value.trim() || name.value.trim().length < 2) {
+      name.closest('.form-group').classList.add('error');
+      isValid = false;
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.value.trim() || !emailRegex.test(email.value)) {
+      email.closest('.form-group').classList.add('error');
+      isValid = false;
+    }
+
+    // Phone validation (basic Pakistan format)
+    const phoneRegex = /^(\+92|0)?3\d{9}$/;
+    const cleanPhone = phone.value.replace(/[\s-]/g, '');
+    if (!cleanPhone || !phoneRegex.test(cleanPhone)) {
+      phone.closest('.form-group').classList.add('error');
+      isValid = false;
+    }
+
+    // Subject
+    if (!subject.value) {
+      subject.closest('.form-group').classList.add('error');
+      isValid = false;
+    }
+
+    // Message
+    if (!message.value.trim() || message.value.trim().length < 10) {
+      message.closest('.form-group').classList.add('error');
+      isValid = false;
+    }
+
+    if (isValid) {
+      // Simulate form submission
+      formSuccess.classList.add('active');
+      contactForm.reset();
+      
+      // In production, you would send data to a server here
+      // For demo: scroll to success message
+      formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      setTimeout(() => {
+        formSuccess.classList.remove('active');
+      }, 5000);
+    }
+  });
+
+  // --- Animate on Scroll ---
+  const animateElements = document.querySelectorAll('.animate-on-scroll');
+  
+  const observerOptions = {
+    threshold: 0.15,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // Optional: unobserve after animation
+        // observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  animateElements.forEach(el => observer.observe(el));
+
+  // Also observe property cards initially
+  propertyCards.forEach(card => {
+    card.classList.add('animate-on-scroll');
+    observer.observe(card);
+  });
+});
+  </script>
+</body>
+</html>
